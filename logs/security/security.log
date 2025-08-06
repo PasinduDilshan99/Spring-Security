@@ -1,0 +1,14 @@
+2025-08-06T09:57:32.291+05:30  INFO 23884 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 21.0.3 with PID 23884 (C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security\target\classes started by PASINDUDI in C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security)
+2025-08-06T09:57:32.292+05:30 DEBUG 23884 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-06T09:57:32.293+05:30  INFO 23884 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T09:57:32.901+05:30  INFO 23884 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-06T09:57:32.911+05:30  INFO 23884 --- [spring-security] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T09:57:32.912+05:30  INFO 23884 --- [spring-security] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06T09:57:32.945+05:30  INFO 23884 --- [spring-security] [main] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring embedded WebApplicationContext
+2025-08-06T09:57:32.945+05:30  INFO 23884 --- [spring-security] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 612 ms
+2025-08-06T09:57:33.194+05:30  INFO 23884 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/security'
+2025-08-06T09:57:33.199+05:30  INFO 23884 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Started SpringSecurityApplication in 1.294 seconds (process running for 1.791)
+2025-08-06T09:57:41.833+05:30  INFO 23884 --- [spring-security] [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T09:57:41.833+05:30  INFO 23884 --- [spring-security] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T09:57:41.833+05:30  INFO 23884 --- [spring-security] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-06T09:57:41.852+05:30  INFO 23884 --- [spring-security] [http-nio-8080-exec-3] c.e.s.controller.TestController          : Hello from TestController
