@@ -1,0 +1,73 @@
+2025-08-06T09:51:03.354+05:30  INFO 22256 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 21.0.3 with PID 22256 (C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security\target\classes started by PASINDUDI in C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security)
+2025-08-06T09:51:03.361+05:30 DEBUG 22256 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-06T09:51:03.362+05:30  INFO 22256 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T09:51:04.023+05:30  INFO 22256 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-06T09:51:04.034+05:30  INFO 22256 --- [spring-security] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T09:51:04.034+05:30  INFO 22256 --- [spring-security] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06T09:51:04.071+05:30  INFO 22256 --- [spring-security] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T09:51:04.072+05:30  INFO 22256 --- [spring-security] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 667 ms
+2025-08-06T09:51:04.397+05:30  WARN 22256 --- [spring-security] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fef79bd6-bc75-4921-b906-fc1c5869670d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-06T09:51:04.405+05:30  INFO 22256 --- [spring-security] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-06T09:51:04.531+05:30  INFO 22256 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-06T09:51:04.538+05:30  INFO 22256 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Started SpringSecurityApplication in 1.558 seconds (process running for 2.092)
+2025-08-06T09:52:44.627+05:30  INFO 22256 --- [spring-security] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06T09:52:44.651+05:30  INFO 22256 --- [spring-security] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-06T09:52:47.855+05:30  INFO 26780 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 21.0.3 with PID 26780 (C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security\target\classes started by PASINDUDI in C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security)
+2025-08-06T09:52:47.858+05:30 DEBUG 26780 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-06T09:52:47.859+05:30  INFO 26780 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T09:52:48.539+05:30  INFO 26780 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-06T09:52:48.549+05:30  INFO 26780 --- [spring-security] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T09:52:48.549+05:30  INFO 26780 --- [spring-security] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06T09:52:48.581+05:30  INFO 26780 --- [spring-security] [main] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring embedded WebApplicationContext
+2025-08-06T09:52:48.581+05:30  INFO 26780 --- [spring-security] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 686 ms
+2025-08-06T09:52:48.822+05:30  WARN 26780 --- [spring-security] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 838d74e3-dead-48e6-a302-92be85376e33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-06T09:52:48.827+05:30  INFO 26780 --- [spring-security] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-06T09:52:48.908+05:30  INFO 26780 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/security'
+2025-08-06T09:52:48.914+05:30  INFO 26780 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Started SpringSecurityApplication in 1.414 seconds (process running for 1.885)
+2025-08-06T09:52:56.269+05:30  INFO 26780 --- [spring-security] [http-nio-8080-exec-7] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T09:52:56.269+05:30  INFO 26780 --- [spring-security] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T09:52:56.270+05:30  INFO 26780 --- [spring-security] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T09:53:20.812+05:30  INFO 26780 --- [spring-security] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06T09:53:20.837+05:30  INFO 26780 --- [spring-security] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-06T09:53:24.538+05:30  INFO 28776 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 21.0.3 with PID 28776 (C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security\target\classes started by PASINDUDI in C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security)
+2025-08-06T09:53:24.540+05:30 DEBUG 28776 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-06T09:53:24.540+05:30  INFO 28776 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T09:53:25.151+05:30  INFO 28776 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-06T09:53:25.163+05:30  INFO 28776 --- [spring-security] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T09:53:25.163+05:30  INFO 28776 --- [spring-security] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06T09:53:25.194+05:30  INFO 28776 --- [spring-security] [main] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring embedded WebApplicationContext
+2025-08-06T09:53:25.195+05:30  INFO 28776 --- [spring-security] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2025-08-06T09:53:25.466+05:30  INFO 28776 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/security'
+2025-08-06T09:53:25.471+05:30  INFO 28776 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Started SpringSecurityApplication in 1.406 seconds (process running for 1.899)
+2025-08-06T09:53:30.904+05:30  INFO 28776 --- [spring-security] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T09:53:30.904+05:30  INFO 28776 --- [spring-security] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T09:53:30.905+05:30  INFO 28776 --- [spring-security] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T09:53:30.925+05:30  INFO 28776 --- [spring-security] [http-nio-8080-exec-2] c.e.s.controller.TestController          : Hello from TestController
+2025-08-06T09:55:44.052+05:30  INFO 28776 --- [spring-security] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06T09:55:44.075+05:30  INFO 28776 --- [spring-security] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-06T09:55:46.225+05:30  INFO 20560 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 21.0.3 with PID 20560 (C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security\target\classes started by PASINDUDI in C:\Users\pasindudi\Desktop\Spring-boot-security-001\Spring-Security)
+2025-08-06T09:55:46.232+05:30 DEBUG 20560 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-06T09:55:46.233+05:30  INFO 20560 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T09:55:47.440+05:30  INFO 20560 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-06T09:55:47.454+05:30  INFO 20560 --- [spring-security] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T09:55:47.454+05:30  INFO 20560 --- [spring-security] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06T09:55:47.493+05:30  INFO 20560 --- [spring-security] [main] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring embedded WebApplicationContext
+2025-08-06T09:55:47.494+05:30  INFO 20560 --- [spring-security] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1224 ms
+2025-08-06T09:55:47.768+05:30  INFO 20560 --- [spring-security] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/security'
+2025-08-06T09:55:47.773+05:30  INFO 20560 --- [spring-security] [main] c.e.s.SpringSecurityApplication          : Started SpringSecurityApplication in 1.975 seconds (process running for 2.487)
+2025-08-06T09:55:53.761+05:30  INFO 20560 --- [spring-security] [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/security]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T09:55:53.761+05:30  INFO 20560 --- [spring-security] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T09:55:53.762+05:30  INFO 20560 --- [spring-security] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T09:55:53.785+05:30  INFO 20560 --- [spring-security] [http-nio-8080-exec-5] c.e.s.controller.TestController          : Hello from TestController
+2025-08-06T09:57:30.011+05:30  INFO 20560 --- [spring-security] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06T09:57:30.035+05:30  INFO 20560 --- [spring-security] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
